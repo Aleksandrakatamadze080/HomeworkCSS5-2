@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #07081A;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 28px 0 64px 0px;
+    border-bottom: 2px solid #242642;
+    
+}
+
+.navigacia {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1040px;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.headers {
+    list-style-type: none;
+    display: flex;
+    
+    gap: 16px;
+}
+
+li {
+    color: #fff;
+}
+
+
+.green {
+    color: #8CE900;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mains {
+    display: flex;
+    flex-direction: column;
+    max-width: 1040px;
+    width: 100%;
+    gap: 64px;
+}
+
+.firstContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+section {
+    display: flex;
+    background-color: #242642;
+    width: 100%;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.secondContainer {
+    display: flex;
+    justify-content: space-around;
+    max-width: 896px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.comp {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.comp {
+    color: #C0C0C0;
+    font-size: 20px;
+}
+footer {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.ot {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sectionOne {
+    display: flex;
+    width: 274px;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+
+.sectionparagraph {
+    font-size: 14px;
+    color: #C0C0C0;
+}
+
+.imgFooter {
+   width: 110px;
+}
+
+.footerUl {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+}
+
+.lastDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.lastP {
+    color: #fff;
+    font-size: 16px;
+}
